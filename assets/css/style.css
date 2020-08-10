@@ -1,21 +1,21 @@
 /* Navbar */
-.logo-header{
-    height: 70px;
+.logo-header {
+  height: 70px;
 }
 
-.navbar{
-    background: white;
+.navbar {
+  background: white;
 }
 
-.nav-list{
-    padding-right: 200px!important;
-    margin-top: -10px;
+.nav-list {
+  padding-right: 20vw !important;
+  margin-top: -10px;
 }
 
 a.navbar-brand {
   float: left;
   padding-top: 0px;
-  padding-left: 200px;
+  padding-left: 20vw;
 }
 
 nav.main-navigation {
@@ -117,16 +117,27 @@ a.nav-link {
 
 /* container */
 .welcome-cont {
-    background: url('../images/background.jpg') no-repeat center top fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    margin-top: 80px;
+  background: url("../images/background.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  margin-top: 80px;
 }
 
-.text-cont{
-    height: 100vh;
+.text-cont {
+  height: 100vh;
+}
+
+/* changes navbar padding on small screens */
+@media (max-width: 1023px) {
+  .nav-list {
+    padding-right: 1vw !important;
+  }
+
+  a.navbar-brand {
+    padding-left: 1vw;
+  }
 }
