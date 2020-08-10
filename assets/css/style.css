@@ -405,3 +405,28 @@ div.gallery-col{
     padding-right: 0px!important;
     padding-left: 0px!important;
 }
+
+@media (max-width: 767px) {
+    .row-custom{
+        flex-direction: column-reverse;
+    }
+    .gallery-col1 p,
+    .gallery-col2 p{
+        padding-top: 2px!important;
+        text-align: center!important;
+    }
+}
+
+.gallery-col2 p{
+    color: black; 
+    text-align: right; 
+    padding-top: 200px; 
+    margin-right:30px;
+}
+
+.gallery-col1 p{
+    color: black; 
+    text-align: left; 
+    padding-top: 200px; 
+    margin-left:30px;
+}
