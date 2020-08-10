@@ -1,0 +1,132 @@
+/* Navbar */
+.logo-header{
+    height: 70px;
+}
+
+.navbar{
+    background: white;
+}
+
+.nav-list{
+    padding-right: 200px!important;
+    margin-top: -10px;
+}
+
+a.navbar-brand {
+  float: left;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+nav.main-navigation {
+  position: relative;
+}
+
+nav.main-navigation ul.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  text-align: right;
+}
+
+.nav-list li.nav-list-item {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+a.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  color: #404040;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: auto;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.nav-list li {
+  animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+  animation-fill-mode: both;
+}
+
+.nav-list li:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.nav-list li:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.nav-list li:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.nav-list li:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.nav-list li:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+/* container */
+.welcome-cont {
+    background: url('../images/background.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+.text-cont{
+    height: 100vh;
+}
