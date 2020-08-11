@@ -156,3 +156,7 @@ section {
 .mx-auto{
     margin-left: 100px!important;
 }
+
+.btn-black-outline:hover{
+    background-color: rgba(0,0,0,0.2);
+}
