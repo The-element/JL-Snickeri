@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .d
     font-size: 1rem;
 }
 .second-cont {
+    height: 45vh;
     padding-top: 135px;
     padding-bottom: 135px;
     background-image: url(../images/home-design.jpg);
