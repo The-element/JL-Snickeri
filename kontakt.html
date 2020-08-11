@@ -13,7 +13,7 @@
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
-	<title>Home</title>
+	<title>Kontakt</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 		<div class="collapse navbar-collapse " id="collapsibleNavbar">
 			<ul class="navbar-nav nav-list ml-auto ">
 				<li class="nav-item nav-list-item">
-					<a class="nav-link active" href="#"><b>Hem</b></a>
+					<a class="nav-link" href="index.html"><b>Hem</b></a>
 				</li>
 				<li class="nav-item nav-list-item">
 					<a class="nav-link" href="referenser.html"><b>Referenser</b></a>
@@ -36,18 +36,35 @@
 					<a class="nav-link" href="om.html"><b>Om</b></a>
 				</li>
 				<li class="nav-item nav-list-item">
-					<a class="nav-link" href="kontakt.html"><b>Kontakt</b></a>
+					<a class="nav-link active" href="#"><b>Kontakt</b></a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-    <div class="container-fluid welcome-cont">
-    </div>
-
-    <div class="container text-cont">
-        <div class="row" style="padding-top: 10rem;">
-            <p>A determined soul will do more with a rusty monkey-wrench than a loafer will accomplish with all the tools in a machine shop. ~Rupert Hughes</p>
+    <div class="container contact-cont">
+        <div class="row">
+            <div class="col-md-4 map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d112061.09262729759!2d77.208022!3d28.632485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x644e33bc3def0667!2sIndior+Tours+Pvt+Ltd.!5e0!3m2!1sen!2sus!4v1527779731123" width="100%" height="470px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+                <form action="/post" method="post">
+                    <input class="form-control" name="name" placeholder="Namn..." /><br />
+                    <input class="form-control" name="phone" placeholder="Tel..." /><br />
+                    <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                    <input class="form-control" name="subject" placeholder="ämne..." /><br />
+                    <textarea class="form-control" name="text" placeholder="Meddelande" style="height:150px;"></textarea><br />
+                    <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+                </form>
+            </div>
+            <div class="col-md-4 cont-colm">
+                <b>Kontaktuppgifter:</b><br />
+                Company Inc, <br />
+                Las vegas street 201<br />
+                55001 Nevada, USA<br />
+                Phone: +1 145 000 101<br />
+                <a href="mailto:usa@mysite.com">usa@mysite.com</a><br />
+            </div>
         </div>
     </div>
 

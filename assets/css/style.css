@@ -430,3 +430,13 @@ div.gallery-col{
     padding-top: 200px; 
     margin-left:30px;
 }
+
+/* Contact*/
+.contact-cont{
+    margin-top: 164px;
+    margin-bottom: 84px;
+}
+
+.cont-colm{
+    text-align: right;
+}
