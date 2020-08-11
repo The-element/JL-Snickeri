@@ -21,7 +21,7 @@ function scrollFunction() {
         document.getElementById("header").style.boxShadow = "0 0";
     };
 }
-
+/*
 $(document).ready(function () {
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
@@ -127,4 +127,4 @@ $(document).ready(function () {
         ResCarousel(ell, Parent, slide);
     }
 
-});
+});*/
