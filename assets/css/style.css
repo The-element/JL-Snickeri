@@ -1,6 +1,12 @@
+body{
+    font-family: CircularStdBook, sans-serif;
+}
+
 /* Navbar */
 .logo-header {
   height: 70px;
+  padding-top: 7px;
+  padding-bottom: 5px;
 }
 
 .navbar-collapse {
@@ -239,18 +245,17 @@ section .section-title {
   display: block;
   float: left;
   width: 100%;
-  background: #007b5e;
 }
 
 .crw_bg img {
-  width: 100%;
+  width: 125%;
   display: block;
   height: auto;
 }
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -410,25 +415,24 @@ div.gallery-col{
     .row-custom{
         flex-direction: column-reverse;
     }
-    .gallery-col1 p,
-    .gallery-col2 p{
+    .gallery-col h5{
         padding-top: 2px!important;
         text-align: center!important;
     }
 }
 
-.gallery-col2 p{
+.gallery-col2 h5{
     color: black; 
     text-align: right; 
-    padding-top: 200px; 
-    margin-right:30px;
+    padding-top: 12rem;
+    margin-right: 3rem;
 }
 
-.gallery-col1 p{
+.gallery-col1 h5{
     color: black; 
     text-align: left; 
-    padding-top: 200px; 
-    margin-left:30px;
+    padding-top: 12rem;
+    margin-left: 3rem;
 }
 
 /* Contact*/
@@ -471,4 +475,21 @@ div.gallery-col{
 
 .logo-first{
     max-height: 30vh;
+}
+
+.information-intro-content {
+    text-align: center;
+    height: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 120px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #222;
+}
+
+.information-intro-content h2::after {
+    content: "-";
+    float: left;
+    width: 100%;
 }
