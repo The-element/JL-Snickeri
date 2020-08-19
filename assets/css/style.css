@@ -517,6 +517,7 @@ div.gallery-col{
 @media (max-width: 1023px) {
   div.section video {
     left: 70%!important;
+    top: 0!important;
   }
 }
 
