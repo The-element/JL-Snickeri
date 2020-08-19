@@ -500,3 +500,15 @@ div.gallery-col{
     text-align: center;
     margin-bottom: 5px;
 }
+
+@media (max-width: 1023px) {
+  div.section video {
+    left: 70%!important;
+  }
+}
+
+@media (max-width: 767px) {
+  div.text-cont {
+    height: 70vh;
+  }
+}
