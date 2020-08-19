@@ -425,6 +425,12 @@ div.gallery-col{
     .gallery-col2 h5{
         margin-right: 0!important;
     }
+    .mbr-text {
+        padding: 0 1rem;
+    }
+    .map {
+        padding-bottom: 2rem;
+    }
 }
 
 .gallery-col2 h5{
