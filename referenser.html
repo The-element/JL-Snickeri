@@ -3,23 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <title>Referenser - Galleri med tidigare projekt</title>
   </head>
@@ -53,31 +40,44 @@
     <div class="container-fluid" style="margin:93px 0px;">
         <div class="row">
             <div class="col-md-6 gallery-col">
-                <a href="#">
-                    <div class="animationentry">
-                        <div class="crw_bg animated-2 slideInLeft-2">
-                            <img src="assets/images/home-design.jpg" class="animated slideInLeft"/>
-                        </div>
+                <div class="animationentry">
+                    <div class="crw_bg animated-2 slideInLeft-2">
+                        <a data-fancybox="gallery" href="assets/images/home-design.jpg">
+                            <img src="assets/images/home-design.jpg" alt="#" class="animated slideInLeft"/>
+                        </a>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-md-6 gallery-col gallery-col1">
                 <h5>Arctic Hotel Sommaröy</h5>
             </div>
         </div>
+
         <div class="row row-custom">
             <div class="col-md-6 gallery-col gallery-col2" id="col-1">
                 <h5>Arctic Hotel Sommaröy</h5>
             </div>
             <div class="col-md-6 gallery-col" id="col-2">
-                <a href="#">
-                    <div class="animationentry">
+                <div class="animationentry">
+                    <button type="button" class="btn-modal" data-toggle="modal" data-target="#essve1Modal">
                         <div class="crw_bg animated-2 slideInRight-2">
-                            <img src="assets/images/home-design1.jpg" class="animated slideInRight"/>
+                            <img src="assets/images/home-design1.jpg" class="animated slideInRight" alt="#"/>
                         </div>
-                    </div>
-                </a>
+                    </button>
+                </div>
             </div>
+
+            <div class="modal fade" id="essve1Modal" tabindex="-1" role="dialog"
+					aria-labelledby="essve1ModalLabel" aria-hidden="true">
+				<div class="modal-center modal-dialog-centered" role="document">
+					<div class="modal-content pic-modal">
+                        <button type="button" class="close close-pic" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="assets/images/home-design1.jpg" alt="essve screenshot" class="modalImg">
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 
