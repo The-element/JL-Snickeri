@@ -419,6 +419,12 @@ div.gallery-col{
         padding-top: 2px!important;
         text-align: center!important;
     }
+    .gallery-col1 h5{
+        margin-left: 0!important;
+    }
+    .gallery-col2 h5{
+        margin-right: 0!important;
+    }
 }
 
 .gallery-col2 h5{
