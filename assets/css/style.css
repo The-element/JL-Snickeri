@@ -5,8 +5,7 @@ body{
 /* Navbar */
 .logo-header {
   height: 70px;
-  padding-top: 7px;
-  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .navbar-collapse {
@@ -19,14 +18,14 @@ body{
 }
 
 .nav-list {
-  padding-right: 20vw !important;
+  padding-right: 10vw !important;
   margin-top: -10px;
 }
 
 a.navbar-brand {
   float: left;
   padding-top: 0px;
-  padding-left: 20vw;
+  padding-left: 10vw;
 }
 
 nav.main-navigation {
