@@ -522,6 +522,6 @@ div.gallery-col{
 
 @media (max-width: 767px) {
   div.text-cont {
-    height: 70vh;
+    height: 50vh;
   }
 }
