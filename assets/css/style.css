@@ -77,9 +77,11 @@ a.nav-link {
   }
 }
 
-.nav-list li {
-  animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
-  animation-fill-mode: both;
+@media(min-width: 768px){
+    .nav-list li {
+        animation: FadeIn 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+        animation-fill-mode: both;
+    }
 }
 
 .nav-list li:nth-child(1) {
@@ -254,8 +256,8 @@ section .section-title {
 }
 
 .animated {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -312,7 +314,7 @@ section .section-title {
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    transition: 0.7s ease;
+    transition: 0.9s ease;
   }
 }
 
@@ -328,7 +330,7 @@ section .section-title {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    transition: 0.7s ease;
+    transition: 0.9s ease;
   }
 }
 
