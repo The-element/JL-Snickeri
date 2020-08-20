@@ -494,6 +494,7 @@ div.gallery-col{
 }
 
 .gallery-col2 h5{
+    font-weight: bold;
     color: black; 
     text-align: right; 
     padding-top: 12rem;
@@ -501,6 +502,7 @@ div.gallery-col{
 }
 
 .gallery-col1 h5{
+    font-weight: bold;
     color: black; 
     text-align: left; 
     padding-top: 12rem;
@@ -580,4 +582,25 @@ div.gallery-col{
   div.text-cont {
     min-height: 50vh;
   }
+}
+
+/* REferenser */
+.gallery-col h5::after{
+    content: "-";
+    float: left;
+    width: 100%;
+}
+
+.gallery-col1 p {
+    color: black;
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.gallery-col2 p {
+    color: black;
+    text-align: right;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
