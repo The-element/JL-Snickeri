@@ -618,3 +618,8 @@ div.gallery-col{
         text-align: left;
     }
 }
+
+#myform input,
+#myform textarea{
+    margin-bottom: 1rem;
+}
