@@ -140,7 +140,7 @@ a.nav-link {
 }
 
 .text-cont {
-  height: 50vh;
+  min-height: 50vh;
 }
 
 /* changes navbar padding on small screens */
@@ -242,22 +242,19 @@ div.modal-dialog{
     margin-right: auto;
     width: 70vw;
 }
-
+/*
 @media (min-width: 576px){
     .modal div.modal-dialog {
     max-width: 500px;
     margin: 10rem;
     }
 }
-
-button.close-pic:hover{
-    font-size: larger;
-}
-
+*/
 button.btn-modal{
     padding: 0;
     border: 0;
     outline: 0;
+    background: none;
 }
 
 .modal-content{
@@ -271,9 +268,30 @@ div.modal-content img{
 }
 
 .close-pic{
+    position: absolute;
+    right: 1%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-top: -5%;
     border-radius: 50%;
     width: 30px;
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-bottom: 10px;
 }
+
+button.close-pic:hover{
+    font-size: larger;
+    width: 32px;
+}
+
+button.close-pic:hover{
+    border: 0;
+    outline: 0;
+    color: #9c9c9c;
+}
+
 
 .animationentry {
   width: 100%;
@@ -531,18 +549,15 @@ div.gallery-col{
     max-height: 30vh;
 }
 
-.information-intro-content {
+.info-cont {
     text-align: center;
-    height: auto;
-    max-width: 1280px;
-    margin: 0 auto;
     padding: 60px 0;
     font-size: 15px;
     font-weight: 400;
     color: #222;
 }
 
-.information-intro-content h2::after {
+.info-cont h2::after {
     content: "-";
     float: left;
     width: 100%;
@@ -563,6 +578,6 @@ div.gallery-col{
 
 @media (max-width: 767px) {
   div.text-cont {
-    height: 50vh;
+    min-height: 50vh;
   }
 }

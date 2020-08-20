@@ -41,13 +41,27 @@
         <div class="row">
             <div class="col-md-6 gallery-col">
                 <div class="animationentry">
-                    <div class="crw_bg animated-2 slideInLeft-2">
-                        <a data-fancybox="gallery" href="assets/images/home-design.jpg">
-                            <img src="assets/images/home-design.jpg" alt="#" class="animated slideInLeft"/>
-                        </a>
-                    </div>
+                    <button type="button" class="btn-modal" data-toggle="modal" data-target="#ref2Modal">
+                        <div class="crw_bg animated-2 slideInLeft-2">
+                            <img src="assets/images/home-design.jpg" class="animated slideInLeft" alt="#"/>
+                        </div>
+                    </button>
                 </div>
             </div>
+            
+            <div class="modal fade" id="ref2Modal" tabindex="-1" role="dialog"
+					aria-labelledby="ref2ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content pic-modal">
+                        <button type="button" class="close-pic" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="assets/images/home-design.jpg" alt="screenshot" class="modalImg">
+					</div>
+				</div>
+			</div>
+
+
             <div class="col-md-6 gallery-col gallery-col1">
                 <h5>Arctic Hotel Sommaröy</h5>
             </div>
@@ -59,7 +73,7 @@
             </div>
             <div class="col-md-6 gallery-col" id="col-2">
                 <div class="animationentry">
-                    <button type="button" class="btn-modal" data-toggle="modal" data-target="#essve1Modal">
+                    <button type="button" class="btn-modal" data-toggle="modal" data-target="#ref1Modal">
                         <div class="crw_bg animated-2 slideInRight-2">
                             <img src="assets/images/home-design1.jpg" class="animated slideInRight" alt="#"/>
                         </div>
@@ -67,15 +81,14 @@
                 </div>
             </div>
 
-            
-            <div class="modal fade" id="essve1Modal" tabindex="-1" role="dialog"
-					aria-labelledby="essve1ModalLabel" aria-hidden="true">
+            <div class="modal fade" id="ref1Modal" tabindex="-1" role="dialog"
+					aria-labelledby="ref1ModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
 					<div class="modal-content pic-modal">
                         <button type="button" class="close-pic" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
-                        <img src="assets/images/home-design1.jpg" alt="essve screenshot" class="modalImg">
+                        <img src="assets/images/home-design1.jpg" alt="screenshot" class="modalImg">
 					</div>
 				</div>
 			</div>
