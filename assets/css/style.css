@@ -235,23 +235,19 @@ section .section-title {
 
 /* Referenser */
 
-button.close{
-    display: block;
-    margin-left: auto;
-    margin-right: 1vw;
-    border-radius: 50%;
-    border: 0;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    margin-bottom: 10px;
-}
-
-.modal-center{
+div.modal-dialog{
     margin-top: 10vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70vw;
+}
+
+@media (min-width: 576px){
+    .modal div.modal-dialog {
+    max-width: 500px;
+    margin: 10rem;
+    }
 }
 
 button.close-pic:hover{
@@ -271,7 +267,12 @@ button.btn-modal{
 }
 
 div.modal-content img{
-    width: 70vw;
+    width: 100%;
+}
+
+.close-pic{
+    border-radius: 50%;
+    width: 30px;
 }
 
 .animationentry {
