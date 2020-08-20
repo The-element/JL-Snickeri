@@ -307,10 +307,18 @@ button.close-pic:hover{
   width: 100%;
 }
 
-.crw_bg img {
+.crw_bg img,
+.crw_bg2 img {
   width: 125%;
   display: block;
   height: auto;
+  max-height: 100vh;
+}
+
+.crw_bg2 img{
+  display: block;
+  float: right;
+  width: 100%;
 }
 
 .animated {
