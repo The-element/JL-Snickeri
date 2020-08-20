@@ -497,7 +497,7 @@ div.gallery-col{
     font-weight: bold;
     color: black; 
     text-align: right; 
-    padding-top: 12rem;
+    padding-top: 1rem;
     margin-right: 3rem;
 }
 
@@ -505,7 +505,7 @@ div.gallery-col{
     font-weight: bold;
     color: black; 
     text-align: left; 
-    padding-top: 12rem;
+    padding-top: 1rem;
     margin-left: 3rem;
 }
 
@@ -603,4 +603,10 @@ div.gallery-col{
     text-align: right;
     margin-right: 3rem;
     margin-left: 3rem;
+}
+
+@media (max-width: 767px) {
+    .gallery-col2 p {
+        text-align: left;
+    }
 }
