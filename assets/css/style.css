@@ -497,7 +497,7 @@ div.gallery-col{
     font-weight: bold;
     color: black; 
     text-align: right; 
-    padding-top: 1rem;
+    padding-top: 5rem;
     margin-right: 3rem;
 }
 
@@ -505,7 +505,7 @@ div.gallery-col{
     font-weight: bold;
     color: black; 
     text-align: left; 
-    padding-top: 1rem;
+    padding-top: 5rem;
     margin-left: 3rem;
 }
 
