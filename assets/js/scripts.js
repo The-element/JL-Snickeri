@@ -31,10 +31,10 @@ function sendFunction() {
         this.contact_number.value = Math.random() * 100000 | 0;
         emailjs.sendForm('JL', 'jl_snickeri', this).then(function(){ 
             alert("Sent!");
-               myform.find("#submit").text("Send");
+               myform.find("input").value("Send");
         }, function(err) {
                alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-              myform.find("button").text("Send");
+              myform.find("input").value("Send");
         });
       return false;
     });
