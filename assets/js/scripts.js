@@ -34,7 +34,7 @@ function sendFunction() {
                myform.find("#submit").text("Send");
         }, function(err) {
                alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-              myform.find("input").text("Send");
+              myform.find("button").text("Send");
         });
       return false;
     });
